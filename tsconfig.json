@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {        
+        "target": "es5",
+        "module": "system",
+        "outFile": "js/game.js",
+        "sourceMap": false
+    },
+    "include": [
+        "source/**/*",
+        "phaser3-docs/typescript/"
+    ]
+}
