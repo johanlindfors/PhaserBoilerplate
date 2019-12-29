@@ -7,6 +7,6 @@
     },
     "include": [
         "source/**/*",
-        "phaser3-docs/typescript/"
+        "phaser/types/phaser.d.ts"
     ]
 }

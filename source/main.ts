@@ -7,7 +7,7 @@
 /// <reference path="scenes/mainScene.ts"/>
 
 // main game configuration
-const config: GameConfig = {
+const config: Phaser.Types.Core.GameConfig = {
   width: 800,
   height: 600,
   type: Phaser.AUTO,
@@ -23,7 +23,7 @@ const config: GameConfig = {
 
 // game class
 class Game extends Phaser.Game {
-  constructor(config: GameConfig) {
+  constructor(config: Phaser.Types.Core.GameConfig) {
     super(config);
   }
 }
